@@ -38,7 +38,7 @@
             this.txtSayi1 = new System.Windows.Forms.TextBox();
             this.txtSayi2 = new System.Windows.Forms.TextBox();
             this.toplama = new System.Windows.Forms.Button();
-            this.cıkarma = new System.Windows.Forms.Button();
+            this.cikarma = new System.Windows.Forms.Button();
             this.bolme = new System.Windows.Forms.Button();
             this.carpma = new System.Windows.Forms.Button();
             this.cikis = new System.Windows.Forms.Button();
@@ -129,14 +129,15 @@
             this.toplama.UseVisualStyleBackColor = true;
             this.toplama.Click += new System.EventHandler(this.toplama_Click);
             // 
-            // cıkarma
+            // cikarma
             // 
-            this.cıkarma.Location = new System.Drawing.Point(352, 93);
-            this.cıkarma.Name = "cıkarma";
-            this.cıkarma.Size = new System.Drawing.Size(75, 23);
-            this.cıkarma.TabIndex = 10;
-            this.cıkarma.Text = "Çıkarma";
-            this.cıkarma.UseVisualStyleBackColor = true;
+            this.cikarma.Location = new System.Drawing.Point(352, 93);
+            this.cikarma.Name = "cikarma";
+            this.cikarma.Size = new System.Drawing.Size(75, 23);
+            this.cikarma.TabIndex = 10;
+            this.cikarma.Text = "Çıkarma";
+            this.cikarma.UseVisualStyleBackColor = true;
+            this.cikarma.Click += new System.EventHandler(this.cıkarma_Click);
             // 
             // bolme
             // 
@@ -173,7 +174,7 @@
             this.Controls.Add(this.cikis);
             this.Controls.Add(this.carpma);
             this.Controls.Add(this.bolme);
-            this.Controls.Add(this.cıkarma);
+            this.Controls.Add(this.cikarma);
             this.Controls.Add(this.toplama);
             this.Controls.Add(this.txtSayi2);
             this.Controls.Add(this.txtSayi1);
@@ -203,7 +204,7 @@
         private System.Windows.Forms.TextBox txtSayi1;
         private System.Windows.Forms.TextBox txtSayi2;
         private System.Windows.Forms.Button toplama;
-        private System.Windows.Forms.Button cıkarma;
+        private System.Windows.Forms.Button cikarma;
         private System.Windows.Forms.Button bolme;
         private System.Windows.Forms.Button carpma;
         private System.Windows.Forms.Button cikis;
