@@ -157,6 +157,7 @@
             this.carpma.TabIndex = 12;
             this.carpma.Text = "Çarpma";
             this.carpma.UseVisualStyleBackColor = true;
+            this.carpma.Click += new System.EventHandler(this.carpma_Click);
             // 
             // cikis
             // 
