@@ -167,6 +167,7 @@
             this.cikis.TabIndex = 13;
             this.cikis.Text = "Çıkış";
             this.cikis.UseVisualStyleBackColor = true;
+            this.cikis.Click += new System.EventHandler(this.cikis_Click);
             // 
             // Form1
             // 

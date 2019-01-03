@@ -68,5 +68,10 @@ namespace CalcV2._2
             label6.Text = "=";
             label7.Text = Convert.ToString(sonuc);
         }
+
+        private void cikis_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
