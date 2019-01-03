@@ -147,6 +147,7 @@
             this.bolme.TabIndex = 11;
             this.bolme.Text = "Bölme";
             this.bolme.UseVisualStyleBackColor = true;
+            this.bolme.Click += new System.EventHandler(this.bolme_Click);
             // 
             // carpma
             // 
