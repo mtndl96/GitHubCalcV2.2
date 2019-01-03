@@ -35,8 +35,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.sayı_1 = new System.Windows.Forms.TextBox();
-            this.sayi_2 = new System.Windows.Forms.TextBox();
+            this.txtSayi1 = new System.Windows.Forms.TextBox();
+            this.txtSayi2 = new System.Windows.Forms.TextBox();
             this.toplama = new System.Windows.Forms.Button();
             this.cıkarma = new System.Windows.Forms.Button();
             this.bolme = new System.Windows.Forms.Button();
@@ -105,19 +105,19 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Sonuç";
             // 
-            // sayı_1
+            // txtSayi1
             // 
-            this.sayı_1.Location = new System.Drawing.Point(154, 56);
-            this.sayı_1.Name = "sayı_1";
-            this.sayı_1.Size = new System.Drawing.Size(100, 20);
-            this.sayı_1.TabIndex = 7;
+            this.txtSayi1.Location = new System.Drawing.Point(154, 56);
+            this.txtSayi1.Name = "txtSayi1";
+            this.txtSayi1.Size = new System.Drawing.Size(100, 20);
+            this.txtSayi1.TabIndex = 7;
             // 
-            // sayi_2
+            // txtSayi2
             // 
-            this.sayi_2.Location = new System.Drawing.Point(154, 93);
-            this.sayi_2.Name = "sayi_2";
-            this.sayi_2.Size = new System.Drawing.Size(100, 20);
-            this.sayi_2.TabIndex = 8;
+            this.txtSayi2.Location = new System.Drawing.Point(154, 93);
+            this.txtSayi2.Name = "txtSayi2";
+            this.txtSayi2.Size = new System.Drawing.Size(100, 20);
+            this.txtSayi2.TabIndex = 8;
             // 
             // toplama
             // 
@@ -127,6 +127,7 @@
             this.toplama.TabIndex = 9;
             this.toplama.Text = "Toplama";
             this.toplama.UseVisualStyleBackColor = true;
+            this.toplama.Click += new System.EventHandler(this.toplama_Click);
             // 
             // cıkarma
             // 
@@ -174,8 +175,8 @@
             this.Controls.Add(this.bolme);
             this.Controls.Add(this.cıkarma);
             this.Controls.Add(this.toplama);
-            this.Controls.Add(this.sayi_2);
-            this.Controls.Add(this.sayı_1);
+            this.Controls.Add(this.txtSayi2);
+            this.Controls.Add(this.txtSayi1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -199,8 +200,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox sayı_1;
-        private System.Windows.Forms.TextBox sayi_2;
+        private System.Windows.Forms.TextBox txtSayi1;
+        private System.Windows.Forms.TextBox txtSayi2;
         private System.Windows.Forms.Button toplama;
         private System.Windows.Forms.Button cıkarma;
         private System.Windows.Forms.Button bolme;
